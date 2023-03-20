@@ -1,0 +1,149 @@
+.jcarousel-wrapper {
+    position: relative;
+     width: 720px;
+     margin: 0 auto;
+}
+
+
+.jcarousel-wrapper .photo-credits {
+    position: absolute;
+    right: 15px;
+    bottom: 0;
+    font-size: 13px;
+    color: #fff;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.85);
+    opacity: .66;
+}
+
+.jcarousel-wrapper .photo-credits a {
+    color: #fff;
+}
+
+/** Carousel **/
+
+.jcarousel {
+    position: relative;
+    overflow: hidden;
+    width: 680px;
+    height: 145px;
+     margin: 0 auto;
+    
+}
+
+.jcarousel ul {
+    width: 20000em;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.jcarousel li {
+    float: left;
+    margin-left:20px;
+}
+
+/** vertical Carousel **/
+.car
+{
+     position: relative;
+    overflow: hidden;
+    width: 680px;
+    height: 145px;
+}
+
+    .car ul {
+         width: 20000em;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+
+    .car li {
+        float: left;
+        margin-left:20px;
+        
+    }
+
+
+
+/** Carousel Controls **/
+
+.jcarousel-control-prev {
+    position: absolute;
+    color: #fff;
+    text-decoration: none;
+    display:block;
+    width:13px;
+    height:36px;
+    background:url("/images/aa1.png");
+    top:60px;
+    left:-20px;
+}
+
+.jcarousel-control-next {
+    position: absolute;
+    color: #fff;
+    text-decoration: none;
+    display:block;
+    width:13px;
+    height:36px;
+    background:url("/images/aa2.png");
+    top:60px;
+}
+
+.jcarousel-control-prev {
+    left: 10px;
+}
+
+.jcarousel-control-next {
+    right: 10px;
+}
+
+.jcarousel-control-prev:hover span,
+.jcarousel-control-next:hover span {
+    display: block;
+}
+
+.jcarousel-control-prev.inactive,
+.jcarousel-control-next.inactive {
+    opacity: 1.0;
+    cursor: pointer;
+}
+
+/** Vertical Carousel Controls **/
+
+/** Carousel Pagination **/
+
+.jcarousel-pagination {
+    position: absolute;
+    bottom: 7px;
+    left: 50%;
+}
+
+.jcarousel-pagination a {
+    text-decoration: none;
+    display: inline-block;
+    
+    font-size: 0px;
+    line-height: 2px;
+    width: 2px;
+    
+    background: #afb0b2;
+    color: #afb0b2;
+    border-radius: 5px;
+    padding: 3px;
+    text-align: center;
+    
+    margin-right: 4px;
+    
+    opacity: .75;
+}
+
+.jcarousel-pagination a.active {
+    background: #474747;
+    color: #474747;
+    opacity: 1;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.75);
+}
